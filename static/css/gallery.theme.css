@@ -1,0 +1,31 @@
+.control-button {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    margin: 0 .18em;
+    font-size: 3em;
+    text-align: center;
+    transition: color .1s;
+}
+
+.gallery .control-button:hover {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.gallery {
+    position: relative;
+}
+
+.item {
+    height: 350px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

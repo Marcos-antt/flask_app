@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "fontcafe";
+    src: url(../fonts/coffee+teademo-Regular.ttf);
+}
+
+.contanier1 {
+    max-width: 1100px;
+    align-content: center;
+    border: 1px solid rgba(145, 99, 0, 0.959);
+    margin: 40px auto;
+}
+
+.camadatop {
+    background-color: #FF9350;
+    box-shadow: 9px 4px 2px #fff;
+    border-radius: 0px;
+    height: 91px;
+    width: 100%;
+}
+
+.titulo {
+    text-align: justify;
+    font-family: "fontcafe";
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: left;
+    font-family: "fontcafe";
+    text-align: justify;
+    margin-top: 21px;
+    margin-left: 45px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.p {
+    color: #8b4513eb;
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.div-contanier {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial;
+}
+
+main {
+    background-color: #f1f1f1d6;
+    padding: 5px 40px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 50px;
+}
+
+table {
+    align-self: center;
+}
+
+a.nourdeline:link {
+    text-decoration: none;
+    font-size: Arial;
+}
+
+.nourdeline {
+    color: red;
+}
+
+.footer {
+    position: center;
+    bottom: 0;
+    width: 95%;
+    color: rgb(219, 17, 17)
+}
+
+dl {
+    color: #fff;
+}
+
+.menu ul {
+    background-color: #ff9350;
+    list-style: none;
+    margin-top: -20px;
+}
+
+.menu ul li {
+    padding: 10px 65px 10px 10px;
+    display: inline-block;
+    color: rgb(63, 22, 22);
+    position: relative;
+    margin-top: -2.5px;
+}
+
+.menu ul li a {
+    font-size: "fontcafe";
+    text-decoration: none;
+}
+
+a {
+    color: rgba(212, 79, 26, 0.897);
+    font-family: "fontcafe";
+    font-size: 35px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: white;
+    box-shadow: 0px 3px 0 0 rgb(202, 101, 38);
+    opacity: fff;
+}
+
+.logomenu {
+    margin-top: 20px;
+}
+
+.rodape {
+    background-color: #ff9350;
+    padding: 20px 350px;
+}
+
+.rodapetxt {
+    color: #8b4513eb;
+    font-family: sans-serif;
+    font-size: 17px;
+    position: absolute;
+}
+
+.corpo {
+    width: 1050px;
+    margin-top: 35px;
+    margin-inline-start: auto;
+}
+
+.nome {
+    font-size: Arial;
+    color: #8b4513eb;
+}
+
+.email {
+    font-size: Arial;
+    color: #8b4513eb;
+}
+
+.assunto {
+    font-size: Arial;
+    color: #8b4513eb;
+}
+
+.txtform {
+    width: 198px
+}
+
+.msgbox {
+    height: 136px;
+    width: 198px
+}
+
+.imageemail {
+    position: absolute;
+    left: 338px;
+    top: 535px;
+}
+
+.contato1 {
+    position: absolute;
+    left: 920px;
+    top: 390px;
+}

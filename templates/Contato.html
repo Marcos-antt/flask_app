@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css?s=1">
+    <script type="text/javascript" src="../js/alertform.js"></script>
+
+
+    <title>Coffee Code</title>
+</head>
+
+<body>
+
+    <!-- menu -->
+    <section>
+        <div class="camadatop">
+            <div class="menu">
+                <ul>
+                    <li class="logomenu">
+                        <span class="titulo">
+                            COFFEE CODE <img  src="../img/cafe.png" width="60px">
+                        </span>
+                    </li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="cardapio">Cardápio</a></li>
+                    <li><a href="eventos">Eventos</a></li>
+                    <li><a href="contato">Contato</a></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- fim do menu -->
+    <main>
+        <div class="contanier1">
+            <h2>Contato</h2>
+
+            <br>
+            <span class="endereco1">
+                <p>
+                    Tel: (00) 0000-0000
+                </p>
+            </span>
+            <br>
+            <p>
+                Cel: (00) 000000000
+            </p>
+            <br>
+            <p>
+                E-mail:contato@coffeecode.com.br
+            </p>
+            <br>
+            <br>
+
+            <p>
+                Entre em contato e solicite um orçamento Insira seus dados ao lado que em breve responderemos sua solicitação.
+            </p>
+
+
+            <div class="corpo">
+
+                <form name="formcontato" method="POST">
+                    <div class="imageemail">
+                        <img src="../img/email.png" width="300px">
+                    </div>
+
+
+
+                    <div class="nome">
+                        <div class="txtform">
+                            <p>Nome:</p> <input type="text" name="nome" id="nome" placeholder="Nome Completo" required></br>
+                            </br>
+                        </div>
+                    </div>
+
+                    <div class="telefone">
+                        <div class="txtform">
+                            <p>Telefone:</p> <input type="text" name="telefone" id="telefone" placeholder="Telefone" required></br>
+                            </br>
+                        </div>
+                    </div>
+
+                    <div class="Email">
+                        <div class="txtform">
+                            <p>Email:</p> <input type="text" name="email" id="email" placeholder="Email" required></br>
+                            </br>
+                        </div>
+                    </div>
+
+                    <div class="Assunto">
+                        <div class="txtform">
+                            <p>Assunto:</p> <input type="text" name="assunto" id="assunto" placeholder="Assunto" required></br>
+                            </br>
+                        </div>
+                    </div>
+
+                    <div class="msgbox">
+                        <p>Mensagem:</p> <textarea name="mensagem" id="mensagem"></textarea></br>
+                        </br>
+                        <input type="submit" value="Enviar Mensagem" onclick="validar_form_contato();">
+                    </div>
+            </div>
+        </div>
+        </form>
+        <div class="contanier1">
+            <h2>Onde Estamos</h2>
+            <span class="endereco">
+                <p>
+                    Endereço: Av. Expedicionário Osvaldo de Almeida Ramos, 280 
+                </p>
+                <br>
+                <p>
+                    CEP:27700-000
+                </p>
+                <br>
+                <p>
+                    Vassouras-RJ
+                </p>
+                <br>
+                <br>
+            </span>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.5250473645233!2d-43.66621128537505!3d-22.40925562593961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9930cf7c22de05%3A0xc63f64f24c89cbf6!2sUniversidade%20de%20Vassouras!5e0!3m2!1spt-BR!2sbr!4v1589742919849!5m2!1spt-BR!2sbr"
+                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer class="rodape">
+        <div class="contanier">
+            <span class="rodapetxt">Desenvolvido por Marcos Antônio Todos os direitos reservados - 2020
+            </span>
+        </div>
+        </div>
+    </footer>
+</body>
+
+
+</div>
+
+</html>
